@@ -13,4 +13,5 @@ const ChartList = (props) => {
     </Fragment>
   )
 }
+
 export default ChartList;

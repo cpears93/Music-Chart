@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import ChartList from '../components/ChartList.js';
-import ChartBox from '../components/Chartbox.js'
+import ChartBox from '../containers/ChartBox.js'
 
 class Chartbox extends Component {
   constructor(props){
@@ -9,21 +9,15 @@ class Chartbox extends Component {
       comments: [
         {
           id: 1,
-          artist: "",
-          term: "",
-          like_song: ""
-        }
+          artist: "The Weeknd",
+          term: "R&B/Soul",
+          like_song: "Yes"
+        },
         {
           id: 2,
-          artist: "",
-          term: "",
-          like_song: ""
-        }
-        {
-          id: 3,
-          artist: "",
-          term: "",
-          like_song: ""
+          artist: "Surf Mesa",
+          term: "Dance",
+          like_song: "No"
         }
       ]
     }

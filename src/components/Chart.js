@@ -2,7 +2,7 @@ import React from 'react';
 
 const Chart = (props) => {
   return (
-    <p>Song: {props.chart.song} - {props.chart.text}</p>
+    <p>Artist: {props.chart.artist} - {props.chart.text}</p>
   )
 }
 
